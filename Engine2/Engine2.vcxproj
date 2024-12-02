@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="SDL_Debug|x64">
+      <Configuration>SDL_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="SDL_Release|x64">
+      <Configuration>SDL_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="SFML_Debug|x64">
+      <Configuration>SFML_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="SFML_Release|x64">
+      <Configuration>SFML_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Component.cpp" />
+    <ClCompile Include="Source\EventManager.cpp" />
+    <ClCompile Include="Source\GameObject.cpp" />
+    <ClCompile Include="Source\GameObjectManager.cpp" />
+    <ClCompile Include="Source\ImageComponent.cpp" />
+    <ClCompile Include="Source\KinematicComponent.cpp" />
+    <ClCompile Include="Source\Localization.cpp" />
+    <ClCompile Include="Source\LuaEmbed.cpp" />
+    <ClCompile Include="Source\PerlinNoise.cpp" />
+    <ClCompile Include="Source\Random.cpp" />
+    <ClCompile Include="Source\ScriptManager.cpp" />
+    <ClCompile Include="Source\ShapeComponent.cpp" />
+    <ClCompile Include="Source\SquirrelNoise.cpp" />
+    <ClCompile Include="Source\StateComponent.cpp" />
+    <ClCompile Include="Source\Texture.cpp" />
+    <ClCompile Include="Source\Timer.cpp" />
+    <ClCompile Include="Source\TransformComponent.cpp" />
+    <ClCompile Include="Source\UIButton.cpp" />
+    <ClCompile Include="Source\UIImage.cpp" />
+    <ClCompile Include="Source\UIManager.cpp" />
+    <ClCompile Include="Source\UIRect.cpp" />
+    <ClCompile Include="Source\ResourceManager.cpp" />
+    <ClCompile Include="Source\SDL_Device.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='SFML_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='SFML_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='SDL_Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='SDL_Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Source\Engine.cpp" />
+    <ClCompile Include="Source\pch.cpp" />
+    <ClCompile Include="Source\SDL_Graphics.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='SFML_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='SFML_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='SDL_Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='SDL_Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Source\SDL_Input.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='SFML_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='SFML_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='SDL_Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='SDL_Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Source\SFML_Device.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='SDL_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='SDL_Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Source\UIElement.cpp" />
+    <ClCompile Include="Source\UILabel.cpp" />
+    <ClCompile Include="Source\UITextInput.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\CallBack.h" />
+    <ClInclude Include="Source\Color.h" />
+    <ClInclude Include="Source\Component.h" />
+    <ClInclude Include="Source\ComponentTypeDef.h" />
+    <ClInclude Include="Source\Engine.h" />
+    <ClInclude Include="Source\Event.h" />
+    <ClInclude Include="Source\EventListener.h" />
+    <ClInclude Include="Source\EventManager.h" />
+    <ClInclude Include="Source\EventType.h" />
+    <ClInclude Include="Source\Font.h" />
+    <ClInclude Include="Source\GlobalFunctions.h" />
+    <ClInclude Include="Source\GameObject.h" />
+    <ClInclude Include="Source\GameObjectManager.h" />
+    <ClInclude Include="Source\HashString.h" />
+    <ClInclude Include="Source\IGame.h" />
+    <ClInclude Include="Source\ImageComponent.h" />
+    <ClInclude Include="Source\KinematicComponent.h" />
+    <ClInclude Include="Source\Localization.h" />
+    <ClInclude Include="Source\LuaEmbed.h" />
+    <ClInclude Include="Source\Mouse.h" />
+    <ClInclude Include="Source\PerlinNoise.h" />
+    <ClInclude Include="Source\Random.h" />
+    <ClInclude Include="Source\Rect.h" />
+    <ClInclude Include="Source\ScriptManager.h" />
+    <ClInclude Include="Source\ShapeComponent.h" />
+    <ClInclude Include="Source\SimpleMath.h" />
+    <ClInclude Include="Source\SquirrelNoise.h" />
+    <ClInclude Include="Source\State.h" />
+    <ClInclude Include="Source\StateComponent.h" />
+    <ClInclude Include="Source\Texture.h" />
+    <ClInclude Include="Source\Timer.h" />
+    <ClInclude Include="Source\TransformComponent.h" />
+    <ClInclude Include="Source\Transition.h" />
+    <ClInclude Include="Source\TryCast.h" />
+    <ClInclude Include="Source\UIButton.h" />
+    <ClInclude Include="Source\UIImage.h" />
+    <ClInclude Include="Source\UIManager.h" />
+    <ClInclude Include="Source\UIRect.h" />
+    <ClInclude Include="Source\ResourceManager.h" />
+    <ClInclude Include="Source\UIElement.h" />
+    <ClInclude Include="Source\UILabel.h" />
+    <ClInclude Include="Source\UITextInput.h" />
+    <ClInclude Include="Source\Vector2.h" />
+    <ClInclude Include="Source\Device.h" />
+    <ClInclude Include="Source\framework.h" />
+    <ClInclude Include="Source\Keyboard.h" />
+    <ClInclude Include="Source\Macro.h" />
+    <ClInclude Include="Source\pch.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{bfba8114-c5a1-4829-9bfb-1e11fe26ee5b}</ProjectGuid>
+    <RootNamespace>Engine2</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='SDL_Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='SFML_Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='SDL_Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='SFML_Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='SDL_Debug|x64'" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='SFML_Debug|x64'" Label="PropertySheets" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='SDL_Release|x64'" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='SFML_Release|x64'" Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='SDL_Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Output\Engine\$(Configuration)_$(PlatformShortName)\</OutDir>
+    <IntDir>$(SolutionDir)Temp\Engine\$(Configuration)_$(PlatformShortName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='SFML_Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Output\Engine\$(Configuration)_$(PlatformShortName)\</OutDir>
+    <IntDir>$(SolutionDir)Temp\Engine\$(Configuration)_$(PlatformShortName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='SDL_Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Output\Engine\$(Configuration)_$(PlatformShortName)\</OutDir>
+    <IntDir>$(SolutionDir)Temp\Engine\$(Configuration)_$(PlatformShortName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='SFML_Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Output\Engine\$(Configuration)_$(PlatformShortName)\</OutDir>
+    <IntDir>$(SolutionDir)Temp\Engine\$(Configuration)_$(PlatformShortName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='SDL_Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;USING_SDL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)External\Include\SDL\SDL\;$(ProjectDir)External\Include\SDL\SDL2_image\;$(ProjectDir)External\Include\SDL\SDL2_ttf\;$(ProjectDir)External\Include\LUA\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4100;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>SDL2.lib;SDL2_image.lib;SDL2_ttf.lib;Lua54.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)External\Lib\SDL\SDL\;$(ProjectDir)External\Lib\SDL\SDL2_image\;$(ProjectDir)External\Lib\SDL\SDL2_ttf\;$(ProjectDir)External\Lib\Lua\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+    <PostBuildEvent>
+      <Command>robocopy "$(ProjectDir)External\Lib\SDL\SDL" "$(OutDir)." *.dll /z
+robocopy "$(ProjectDir)External\Lib\SDL\SDL2_image" "$(OutDir)." *.dll /z
+robocopy "$(ProjectDir)External\Lib\SDL\SDL2_ttf" "$(OutDir)." *.dll /z
+exit 0</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='SFML_Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;USING_SFML;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)External\SFML\Include\;$(ProjectDir)External\Include\LUA\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4100;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)External\Lib\SFML;$(ProjectDir)External\Lib\LUA\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='SDL_Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;USING_SDL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)External\Include\SDL\SDL\;$(ProjectDir)External\Include\SDL\SDL2_image\;$(ProjectDir)External\Include\SDL\SDL2_ttf\;$(ProjectDir)External\Include\LUA\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4100;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>SDL2.lib;SDL2_image.lib;SDL2_ttf.lib;Lua54.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)External\Lib\SDL\SDL\;$(ProjectDir)External\Lib\SDL\SDL2_image\;$(ProjectDir)External\Lib\SDL\SDL2_ttf\;$(ProjectDir)External\Lib\Lua\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+    <PostBuildEvent>
+      <Command>robocopy "$(ProjectDir)External\Lib\SDL\SDL" "$(OutDir)." *.dll /z
+robocopy "$(ProjectDir)External\Lib\SDL\SDL2_image" "$(OutDir)." *.dll /z
+robocopy "$(ProjectDir)External\Lib\SDL\SDL2_ttf" "$(OutDir)." *.dll /z
+exit 0</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='SFML_Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;USING_SFML;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)External\SFML\Include\;$(ProjectDir)External\Include\LUA\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4100;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)External\Lib\SFML;$(ProjectDir)External\Lib\LUA\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

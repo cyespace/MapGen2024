@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\pch.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SFML_Device.cpp">
+      <Filter>Core\Device\SFML</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SDL_Device.cpp">
+      <Filter>Core\Device\SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SDL_Input.cpp">
+      <Filter>Core\Device\SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SDL_Graphics.cpp">
+      <Filter>Core\Device\SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ResourceManager.cpp">
+      <Filter>Core\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIElement.cpp">
+      <Filter>Core\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UILabel.cpp">
+      <Filter>Core\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIRect.cpp">
+      <Filter>Core\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Random.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UITextInput.cpp">
+      <Filter>Core\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EventManager.cpp">
+      <Filter>Core\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Texture.cpp">
+      <Filter>Core\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Localization.cpp">
+      <Filter>Core\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PerlinNoise.cpp">
+      <Filter>Utility\Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SquirrelNoise.cpp">
+      <Filter>Utility\Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIButton.cpp">
+      <Filter>Core\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIImage.cpp">
+      <Filter>Core\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIManager.cpp">
+      <Filter>Core\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject.cpp">
+      <Filter>Core\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ShapeComponent.cpp">
+      <Filter>Core\GameObject\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TransformComponent.cpp">
+      <Filter>Core\GameObject\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Timer.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\KinematicComponent.cpp">
+      <Filter>Core\GameObject\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ScriptManager.cpp">
+      <Filter>Core\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObjectManager.cpp">
+      <Filter>Core\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ImageComponent.cpp">
+      <Filter>Core\GameObject\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StateComponent.cpp">
+      <Filter>Core\GameObject\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Component.cpp">
+      <Filter>Core\GameObject\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LuaEmbed.cpp">
+      <Filter>Core\Lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\pch.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\framework.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Keyboard.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Color.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IGame.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rect.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Vector2.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GlobalFunctions.h" />
+    <ClInclude Include="Source\ResourceManager.h">
+      <Filter>Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HashString.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Device.h">
+      <Filter>Core\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Macro.h">
+      <Filter>Core\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UIElement.h">
+      <Filter>Core\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UIRect.h">
+      <Filter>Core\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UILabel.h">
+      <Filter>Core\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mouse.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Random.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UITextInput.h">
+      <Filter>Core\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Event.h">
+      <Filter>Core\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EventManager.h">
+      <Filter>Core\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Texture.h">
+      <Filter>Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Localization.h">
+      <Filter>Core\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SimpleMath.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PerlinNoise.h">
+      <Filter>Utility\Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SquirrelNoise.h">
+      <Filter>Utility\Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UIButton.h">
+      <Filter>Core\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UIImage.h">
+      <Filter>Core\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UIManager.h">
+      <Filter>Core\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Font.h">
+      <Filter>Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObject.h">
+      <Filter>Core\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Component.h">
+      <Filter>Core\GameObject\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ShapeComponent.h">
+      <Filter>Core\GameObject\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TransformComponent.h">
+      <Filter>Core\GameObject\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Timer.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\KinematicComponent.h">
+      <Filter>Core\GameObject\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ScriptManager.h">
+      <Filter>Core\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LuaEmbed.h">
+      <Filter>Core\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TryCast.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EventListener.h">
+      <Filter>Core\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EventType.h">
+      <Filter>Core\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CallBack.h">
+      <Filter>Core\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObjectManager.h">
+      <Filter>Core\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImageComponent.h">
+      <Filter>Core\GameObject\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StateComponent.h">
+      <Filter>Core\GameObject\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\State.h">
+      <Filter>Core\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Transition.h">
+      <Filter>Core\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ComponentTypeDef.h">
+      <Filter>Core\GameObject\Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="pch">
+      <UniqueIdentifier>{21c62086-81fc-439b-a9a5-9751bd3361a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{5f0e1173-94af-47d1-88e1-7552b30c5300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{365a4d20-208d-4fcc-847c-8eae0358aabf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Resource">
+      <UniqueIdentifier>{11651b4b-36d1-432d-86b8-b0b914492e76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\UI">
+      <UniqueIdentifier>{3467d3ab-d1e7-4be7-b238-93f1ebb7709d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Device">
+      <UniqueIdentifier>{27d28d8c-e02c-4982-a914-c50206f5134b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Device\SDL">
+      <UniqueIdentifier>{934ce768-4d4a-4350-a5d7-610b6d3758c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Device\SFML">
+      <UniqueIdentifier>{17f62545-560c-4a2f-bb12-81efc93a4a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Event">
+      <UniqueIdentifier>{185e8c98-f29c-4976-a6d9-ed19494f53a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Noise">
+      <UniqueIdentifier>{d6cef6a1-3da1-47ca-ad5e-fe506e39ab88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\GameObject">
+      <UniqueIdentifier>{9cbeaf8f-eeb6-49f5-bdcf-045bdfcaa7d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\GameObject\Components">
+      <UniqueIdentifier>{133b1131-972d-4004-9567-ab464d177bc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Lua">
+      <UniqueIdentifier>{5e3ee4cd-2541-4e4a-a050-e8262a52914e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\GameObject\Behavior">
+      <UniqueIdentifier>{d624dfac-dbc9-4fa8-b076-f664f7050867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\GameObject\Behavior\Steering">
+      <UniqueIdentifier>{bf87f9d6-71d2-4d57-a843-fd67a26a2d66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\State">
+      <UniqueIdentifier>{fd8999eb-5141-4b9d-a16d-7d6d5a39d8a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

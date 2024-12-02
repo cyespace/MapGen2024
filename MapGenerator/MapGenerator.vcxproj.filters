@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{b9d60d09-878e-4ede-b6bd-3ea58bdf2821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene">
+      <UniqueIdentifier>{727e042e-3cde-4d40-a9e5-78a4a13073f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{24f5c232-d38e-4c56-88dc-427cba3b89bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WorldMap">
+      <UniqueIdentifier>{0ad56fcc-4bf8-4002-8101-1959822e13c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI">
+      <UniqueIdentifier>{dfbbbf33-74c4-4beb-8f0b-68245fc393f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI\State">
+      <UniqueIdentifier>{1a0e0377-def6-45f0-8506-6332e0389af4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI\Transition">
+      <UniqueIdentifier>{27f42a09-72a6-45c0-8ec9-8e46f877cbeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{bf907732-360c-4c1d-9842-7a0884bbad64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Macro">
+      <UniqueIdentifier>{d00b033d-761a-4d2f-9ea0-6040515ac1b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MapElements">
+      <UniqueIdentifier>{89393f57-66db-4af2-b25c-4530a6c0a9cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Critters">
+      <UniqueIdentifier>{fec3f897-fd15-4e12-b5eb-07355f02ac2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Wiki">
+      <UniqueIdentifier>{c39680b8-a954-41c4-a5a4-f9264ff423a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\MapGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Region.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WorldMapUIRect.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MenuScene.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WorldScene.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WorldMap.cpp">
+      <Filter>Source Files\WorldMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Terraform.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LocalScene.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Critters\CritterFactory.cpp">
+      <Filter>Source Files\MapElements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Wiki.cpp">
+      <Filter>Source Files\Wiki</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\MapGenerator.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Region.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WorldMapUIRect.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MenuScene.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WorldScene.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera.h">
+      <Filter>Source Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BiomeType.h">
+      <Filter>Source Files\WorldMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WorldMap.h">
+      <Filter>Source Files\WorldMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MacroDef.h">
+      <Filter>Source Files\Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Terraform.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LocalScene.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StaticMapElement.h">
+      <Filter>Source Files\MapElements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Critters\CritterManager.h">
+      <Filter>Source Files\Critters</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Critters\CritterFactory.h">
+      <Filter>Source Files\MapElements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player.h">
+      <Filter>Source Files\MapElements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LocalMapElementDef.h">
+      <Filter>Source Files\Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Wiki.h">
+      <Filter>Source Files\Wiki</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
